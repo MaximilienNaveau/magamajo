@@ -29,10 +29,10 @@ When building/releasing a new version of your app, you need to make sure that yo
 
     This creates two files: `fdroid/config.yml` and `fdroid/keystore.p12`. The first one is the configuration file for your repository, the second one is a keystore file (these are used for signing apps when building, but this tool doesn't build apps).
 
-    Edit the generated `fdroid/config.yml`. The comments will tell you a lot, but make sure the `repo_url` looks something like this (it should include your username instead of `xarantolus`):
+    Edit the generated `fdroid/config.yml`. The comments will tell you a lot, but make sure the `repo_url` looks something like this (it should include your username instead of `trampoline`):
 
     ```yml
-    repo_url: https://raw.githubusercontent.com/xarantolus/fdroid/main/fdroid/repo
+    repo_url: https://raw.githubusercontent.com/MaximilienNaveau/magamajo/main/fdroid/repo
     ```
 
     You should also set `archive_older` to `0` to disable the archive:
