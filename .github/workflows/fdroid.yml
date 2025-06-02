@@ -43,3 +43,13 @@ jobs:
         run: bash update.sh 2>&1
         env:
           GH_ACCESS_TOKEN: ${{ secrets.GH_ACCESS_TOKEN }}
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git remote set-url origin https://${{ secrets.GH_ACCESS_TOKEN }}@github.com/MaximilienNaveau/magamajo.git
+
+          git add .
+          git commit -m "Automated update"
+          git push

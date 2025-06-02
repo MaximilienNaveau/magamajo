@@ -21,14 +21,6 @@ elif [ $EXIT_CODE -eq 0 ]; then
     # Exit code 0 means that we can commit everything & push
 
     echo "This means that we now have changes we should push"
-
-    git config --global user.name "github-actions[bot]"
-    git config --global user.email "github-actions[bot]@users.noreply.github.com"
-    git remote set-url origin https://$GH_ACCESS_TOKEN@github.com/MaximilienNaveau/magamajo.git
-
-    git add .
-    git commit -m"Automated update"
-    git push
 else 
     echo "This is an unexpected error"
 
