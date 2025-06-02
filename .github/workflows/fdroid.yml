@@ -48,7 +48,9 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git remote set-url origin https://${{ secrets.GH_ACCESS_TOKEN }}@github.com/MaximilienNaveau/magamajo.git
+          git remote set-url origin git@github.com/MaximilienNaveau/magamajo.git
+
+          ssh-add -K - <(echo "${{ secrets.FDROID_SSH_KEY }}")
 
           git add .
           git commit -m "Automated update"
