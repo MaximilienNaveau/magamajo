@@ -5,6 +5,8 @@ out.txt
 .vscode
 keystore.p12
 config.yml
+keystore_base64.txt
+config_base64.txt
 fdroid/tmp
 fdroid/repo/status
 fdroid/metadata/**/phoneScreenshots
