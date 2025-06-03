@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1748935447000,
+    "timestamp": 1748936794000,
     "version": 20002,
     "name": "Magamajo F-Droid Repo Demo",
     "icon": "rob_transparent.png",
@@ -12,17 +12,6 @@
     "uninstall": []
   },
   "apps": [
-    {
-      "categories": [
-        "fdroid"
-      ],
-      "suggestedVersionCode": "2147483647",
-      "license": "Unknown",
-      "name": "categories",
-      "added": 1748932437000,
-      "packageName": "190f7cf1bee2eddae0f05d26d35bf387a0f02337cf05bf331424693c92135a04",
-      "lastUpdated": 1748932437000
-    },
     {
       "authorName": "MaximilienNaveau",
       "categories": [
@@ -76,17 +65,6 @@
     }
   ],
   "packages": {
-    "190f7cf1bee2eddae0f05d26d35bf387a0f02337cf05bf331424693c92135a04": [
-      {
-        "added": 1748932437000,
-        "apkName": "categories.txt",
-        "hash": "190f7cf1bee2eddae0f05d26d35bf387a0f02337cf05bf331424693c92135a04",
-        "hashType": "sha256",
-        "packageName": "190f7cf1bee2eddae0f05d26d35bf387a0f02337cf05bf331424693c92135a04",
-        "size": 6,
-        "versionName": "190f7cf"
-      }
-    ],
     "com.Magamajo.trampoline": [
       {
         "added": 1748932436000,
@@ -127,7 +105,7 @@
       {
         "added": 1748932437000,
         "apkName": "trampoline_v3.1.3.apk",
-        "hash": "e1fa82a02dec9a4e43e29e31df27bbeeb0f1dc32b6070d30c0f439580f1215ba",
+        "hash": "b507c195096b49e0b6b93bb1aa65519852a6e795094fb731183dd59393768b8e",
         "hashType": "sha256",
         "minSdkVersion": 29,
         "nativecode": [
@@ -137,7 +115,7 @@
         "packageName": "com.magamajo.trampoline",
         "sig": "4d84e611d6da5e895b5de35695d90bd3",
         "signer": "89ce10f08ba6e5a4c51adb3e1477c530b07a733b6b68073d58c78f5ef88f3402",
-        "size": 46976447,
+        "size": 46976443,
         "targetSdkVersion": 34,
         "versionCode": 3001003,
         "versionName": "3.1.3"

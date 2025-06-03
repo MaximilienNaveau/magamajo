@@ -14,7 +14,7 @@
       }
     },
     "address": "https://raw.githubusercontent.com/MaximilienNaveau/magamajo/main/fdroid/repo",
-    "timestamp": 1748935447000,
+    "timestamp": 1748936794000,
     "categories": {
       "Games": {
         "name": {
@@ -25,41 +25,10 @@
         "name": {
           "en-US": "Writing"
         }
-      },
-      "fdroid": {
-        "name": {
-          "en-US": "fdroid"
-        }
       }
     }
   },
   "packages": {
-    "190f7cf1bee2eddae0f05d26d35bf387a0f02337cf05bf331424693c92135a04": {
-      "metadata": {
-        "added": 1748932437000,
-        "categories": [
-          "fdroid"
-        ],
-        "lastUpdated": 1748932437000,
-        "name": {
-          "en-US": "categories"
-        }
-      },
-      "versions": {
-        "190f7cf1bee2eddae0f05d26d35bf387a0f02337cf05bf331424693c92135a04": {
-          "added": 1748932437000,
-          "file": {
-            "name": "/categories.txt",
-            "sha256": "190f7cf1bee2eddae0f05d26d35bf387a0f02337cf05bf331424693c92135a04",
-            "size": 6
-          },
-          "manifest": {
-            "versionName": "190f7cf",
-            "versionCode": 0
-          }
-        }
-      }
-    },
     "com.Magamajo.trampoline": {
       "metadata": {
         "added": 1748932436000,
@@ -183,12 +152,12 @@
             }
           }
         },
-        "e1fa82a02dec9a4e43e29e31df27bbeeb0f1dc32b6070d30c0f439580f1215ba": {
+        "b507c195096b49e0b6b93bb1aa65519852a6e795094fb731183dd59393768b8e": {
           "added": 1748932437000,
           "file": {
             "name": "/trampoline_v3.1.3.apk",
-            "sha256": "e1fa82a02dec9a4e43e29e31df27bbeeb0f1dc32b6070d30c0f439580f1215ba",
-            "size": 46976447
+            "sha256": "b507c195096b49e0b6b93bb1aa65519852a6e795094fb731183dd59393768b8e",
+            "size": 46976443
           },
           "manifest": {
             "nativecode": [
