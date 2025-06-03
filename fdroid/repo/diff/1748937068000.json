@@ -1,0 +1,37 @@
+{
+  "repo": {
+    "timestamp": 1748937082000
+  },
+  "packages": {
+    "com.Magamajo.trampoline": {
+      "metadata": {
+        "screenshots": {
+          "phone": {
+            "en-US": [
+              {
+                "name": "/com.Magamajo.trampoline/en-US/phoneScreenshots/1.png",
+                "sha256": "b078cc8ab0ccb117b0201d5d27e2f7992117aae2a9d86ea01e3770758dcc6e4e",
+                "size": 47666
+              }
+            ]
+          }
+        }
+      }
+    },
+    "com.magamajo.trampoline": {
+      "metadata": {
+        "screenshots": {
+          "phone": {
+            "en-US": [
+              {
+                "name": "/com.magamajo.trampoline/en-US/phoneScreenshots/1.png",
+                "sha256": "b078cc8ab0ccb117b0201d5d27e2f7992117aae2a9d86ea01e3770758dcc6e4e",
+                "size": 47666
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}
