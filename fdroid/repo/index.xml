@@ -1,3 +1,81 @@
-<?xml version="1.0" encoding="utf-8"?><fdroid><repo icon="icon.png" name="magamajo" pubkey="30820505308202eda00302010202047b4b04da300d06092a864886f70d01010b050030323110300e060355040b1307462d44726f6964311e301c060355040313157265706f6d616b65722e662d64726f69642e6f72673020170d3234303431393230313035315a180f32303531303930353230313035315a30323110300e060355040b1307462d44726f6964311e301c060355040313157265706f6d616b65722e662d64726f69642e6f726730820222300d06092a864886f70d01010105000382020f003082020a0282020100a68c086d751d36e052d4f4bd863f01329a070e33698c2ba05e423bceff0847eba1741bf09474dde65817aa41caa082541182ac3823e534b9a350e46f1cfd3f1c4f935582c1581e4a1b48e60da516b114929e29394158626db9da511b0ea83e59fe03c06d890b670bfbceb1e99b6428def7773086e1ae5ceb7e4b216496552e53e94fcf3201feaae05f873b5a7815b9d67b45a96ff441706ef6917e5900aac61c142ef049354fa08f9c2b4a84ba7b56f0035240f132cb80cdeaf29b6de01a1fc12d34d24e7054005907af60296b32595663b2e6eb68d808544286cc2f3c8bc3196359b23d1c6d09afb8ad039b6a85b9028d7cf057eaa396c410b56daa63d95e3ddecc44f76b7fe0fa8e15de87d0c99d88acaa87cb22a82aff00c953e3ee4abc2bae65f6406d947932d8f8d157c72b86a47c4892aa32d5f2eafc80449dc6a2dfb1f18cc3b70d508b97300ba9079e2577c5a89f6938187e6d0681d5b00bb0c1b2b17477bfea34f5da1ca6238578c166d9d7ae511305189644514f4b7e96c321dcd385e89f10dedfaedfe26f70f21837e916330089572289a4bc55f96e72b5c85dd5c30065b2e8e33345e79efa85647997ed2a6bb9a819c44ba87ead24c731ea045c05881f2a0ee7ed81f37fdb0b8af72d3b127127654fd90cbf0a8719135222abfeadf39ca70f16faef9f6815ff116fc67edc0691e084578d921b6e332d5338c9d30203010001a321301f301d0603551d0e04160414325037c7f9e99c9f3e57b4f1797c20e102d82081300d06092a864886f70d01010b05000382020100383ef50044a80e19093dbb0e976ddfadf7d5d3798f20e9390710da3ce265ce7fe005cdead5ba255ce7ebf43e490a6b8432360fdd94ba0504b5ab30962f54a4a75565940776a98c50df7c29464f56da898d94fd41869edb247dcc8959fa4542be1bae9926cb124f9554feed0c17184922e120398f34afa3743fb9d4ddfdefd25ac5943566925ed0e3ddeb57da5115ac94c718651c4a4142f4fe5f8650dd6323e26afc73085e57ea2628d3fd0e4e16b997452be1daa53942f80f241cea1f67f5ac58cca9ff7aba965df70154cabd8c7c4a6a3fd5499d67614c72f1bb51099d4300e1d3cebc00c83c2f5caf4dcf1cee0df98e40d2ddc9a2a2e955738460406370c42ed3c5ea664e0f7d4b37d64e56a3fef71f39209f404f544177584dbd16b038e9738714e6b36648b0c0f921fe396229f9c86df1f7e6aadf914c52eabaeac104c8c9833509d2b4d8ff5bc6b26a34ddf8ad7b9c102ede1a61533787c1f0edcceaa5ed2a61ce382de3b9fedf141fd288ef79c13cf99d3e8ed9b5697aff05477e814048757fb7731d8be546406cc3ad616e2ec88d04c5ea206d167f55dab2143ecdc7edc3184ad4a2bc8666e1b9cb0dfb844fd1460b4ed5edc65a9a756b01a2564923db5f52dd83aeaeb58f05c3bd8dedaf0db5ca4a0684dced7637dcf975d02f4c056c57ea358be2785a49c2f0bb945170de7ddd2c1cfa9778f5b47229163d810d2a" timestamp="1742666464" url="https://raw.githubusercontent.com/MaximilienNaveau/magamajo/master/fdroid/repo" version="20000"><description>Private repos of Magamajo</description><mirror>https://localhost/repos/YaymDI6tcjzGW06x0v-C5PmLGKkhrWO_/repo/repo</mirror><mirror>https://raw.githubusercontent.com/MaximilienNaveau/magamajo/master/fdroid/repo/repo</mirror></repo><application id="rob_transparent"><id>rob_transparent</id><added>2024-04-19</added><lastupdated>2025-03-22</lastupdated><name>rob_transparent</name><summary></summary><desc>No description available</desc><license>Unknown</license><web></web><source></source><tracker></tracker><marketversion></marketversion><marketvercode>1713557789</marketvercode><package><version>2024-04-19</version><versioncode>1713557789</versioncode><apkname>rob_transparent.png</apkname><hash type="sha256">f100451a2c2f3dec46e2f62acdf3d98e1465d0806dfa7f0f302f72e0aced705a</hash><size>936869</size><added>2025-03-22</added></package></application><application id="com.magamajo.trampoline"><id>com.magamajo.trampoline</id><added>2025-03-22</added><lastupdated>2025-03-22</lastupdated><name>trampoline</name><summary>Un jeu pour faire rebomdir les mots.</summary><desc>Faire 13 anagrammes de 9 lettres avec les lettres jaunes disponibles. Chaque lettre possède une lettre secondaire verte en générale. Si vous utilisez les vertes vous aurez plus de choix mais moins de points.
-
-Alors maintenant on dit: désolé samedi j'ai trampoline ;)</desc><license>Unknown</license><categories>Games</categories><category>Games</category><web></web><source></source><tracker></tracker><author>Magamajo</author><marketversion></marketversion><marketvercode>1</marketvercode><package><version>3.1.0</version><versioncode>1</versioncode><apkname>trampoline_3.1.0.apk</apkname><hash type="sha256">1f1077458c043beb3164825c962352b7f0b9cc995ba970b7f9925c82e46e88d6</hash><size>23158112</size><sdkver>24</sdkver><targetSdkVersion>34</targetSdkVersion><added>2025-03-22</added><sig>a13e3f11e5d7f569655902c69e2005b8</sig><nativecode>armeabi-v7a</nativecode></package></application></fdroid>
+<?xml version="1.0" encoding="utf-8"?>
+<fdroid>
+	<repo icon="rob_transparent.png" name="Magamajo F-Droid Repo Demo" pubkey="308204eb308202d3a00302010202045a9701b5300d06092a864886f70d01010b050030253110300e060355040b1307462d44726f69643111300f060355040313086d6167616d616a6f3020170d3235303630323035323330385a180f32303532313031383035323330385a30253110300e060355040b1307462d44726f69643111300f060355040313086d6167616d616a6f30820222300d06092a864886f70d01010105000382020f003082020a02820201008c7c73c5d3b4fb149c3bae5fcaa6ea77a49ee3486d541acca6f08aee08d87c2c834db53fd12b2ea356b4f7c6f54cfd9515f590f80e5b26b8c5c20b742d38a8ab7a193744d5f5c05644ea6d95ec0b092083f13642f33373f162193715175ef2a6ff526cd3afffc6b6b7eb7b543b299e77700a13b1f18c29cf321c53343b062f6a793dc3c9639b943391fcad09361a435e54354ef4c1c07b896f96095dcd117c0fd0d442b075ba9f90274ddaadc3de92fdcfdfedbe4c7e72924324852973fdc4585de590f6f32967001d0e67b98665e34ddf36b60987189bedad3e8a757dbbfa1939cf804795c8f0dd61ef5ed0612d8eb0bd1e567c80e48ef7a747cc7d14053cc6042d0d5d2474bcbdd53b8de5a9da9329a513873065b7b7a1296b73f2ecbb98e7c3d21b4b7a74de5e3fdde1753f8a7ca1b93b457578804839f3f424d92518219a62eba7de93b625b49dcfee6049bf9b47545c05edfd4a33430237561c9b93ceef21f5631801d0e5bf10b38a13b8db97d5fdec42431f249cbbad4631539781240e222965dd2019635f61d6d99ca39fa686804bd2e8162d631c2363359392aebb3123f7d388a9a77556e423e9e6f11ddce10dfdf800f7edc52769f42b71bb0aa30ed8e54cad1e95c6dad682c63d247a4932c93dee729f80e4e6357115b3f5e169285f76a15cf17aa82978f5d2c13783cddeb88d5c27e93ab5eae3c35e32fcaa431f0203010001a321301f301d0603551d0e041604140c32e324dc67400cc8806638b62ee41bc46b6ffd300d06092a864886f70d01010b05000382020100407b6a35aad324c2a8146759c4ee9ad5de1acf49411829793796757731a0ef63933498ab1c6df196c45c7b0c7c63885ff9c1270f9fc8413fcef95bba1c54e1a6a7d0c5ca78eb7a99a73c13536a1c252ac4ee8aa1643d218a9effc37fbba6c7480bf83a230d1d3e674553cd01ba4f4de5d4180b89a769f46ea58a6b31ca85bc9d4685ccdee333549ed5bdaf978ab0adb45575aabf5bf7e034dcc5e91d7b0e40c604e9f0526d739aa736e7769e7ff60c7cf1dcd5c28e762b7779b61a344ceb5e02795d95c893e5c8a48cb327d2fd523292bd51194a48bb0df668c1350672ee81a8a596b3c51529f46b354514fd5547d212dbb28fc6082bf10f411ea45097df6e8d4275c74686e917adff83460de68f3dfdc56a2184d339226ab7169086d83a11ae7d3f2e03b99b10658d21a9ae6168096772b143b7afa076010dda04b930692f4284e81ba3e7662d0ec3557219575a09003dfc2eb5ec726f587e27544cd6b4023bcbdee5747063e14156c17d3456ae7a24034bf5051f18cff301994f20b87da91677e758fab1250497c274214541fb637e1e231093f048e1cffa642d067928ea861868f4f857795eed69ed8410685d37c9c5adcec43b842c4df8c6aff466397eddd27396894e736783b56000b55ed06f7a000d2bf6b4efafc6eb4eae15ea63288332acc2ed8a7f9214edcaf0bbde2d06407a28eccaf7af8dc6a00d5aed37f4d606" timestamp="1748932452" url="https://raw.githubusercontent.com/MaximilienNaveau/magamajo/main/fdroid/repo" version="20002">
+		<description>This is a repository of apps to be used with F-Droid. Applications in this repository are either official binaries built by the original application developers, or are binaries built from source by the admin of Magamajo using the tools on https://gitlab.com/fdroid.</description>
+	</repo>
+	<application id="com.Magamajo.trampoline">
+		<id>com.Magamajo.trampoline</id>
+		<added>2025-06-03</added>
+		<lastupdated>2025-06-03</lastupdated>
+		<name>trampoline</name>
+		<summary>&quot;Un jeu pour faire rebondir les mots&quot; par Michel Cheenne. Implementation par ...</summary>
+		<icon>com.Magamajo.trampoline.3000000.png</icon>
+		<desc>Fr: &quot;Un jeu pour faire rebondir les mots&quot; par Michel Chéenne. Implementation par Maximilien Naveau
+En: &quot;A game to bounce words&quot; by Michel Chéenne. Implementation by Maximilien Naveau
+</desc>
+		<license>Unknown</license>
+		<categories>Games,Writing</categories>
+		<category>Games</category>
+		<web></web>
+		<source>https://github.com/MaximilienNaveau/trampoline</source>
+		<tracker></tracker>
+		<author>MaximilienNaveau</author>
+		<marketversion>3.0.0</marketversion>
+		<marketvercode>3000000</marketvercode>
+		<package>
+			<version>3.0.0</version>
+			<versioncode>3000000</versioncode>
+			<apkname>trampoline_v3.0.0.apk</apkname>
+			<hash type="sha256">7ede95b7901f335915f22d39beacb96840e0607256217c6a31de5fa675bb5943</hash>
+			<size>19713690</size>
+			<sdkver>19</sdkver>
+			<targetSdkVersion>30</targetSdkVersion>
+			<added>2025-06-03</added>
+			<sig>01e4378d3057f2bc8cabf8e545c0fa64</sig>
+			<nativecode>armeabi-v7a</nativecode>
+		</package>
+	</application>
+	<application id="com.magamajo.trampoline">
+		<id>com.magamajo.trampoline</id>
+		<added>2025-06-03</added>
+		<lastupdated>2025-06-03</lastupdated>
+		<name>trampoline</name>
+		<summary>&quot;Un jeu pour faire rebondir les mots&quot; par Michel Cheenne. Implementation par ...</summary>
+		<desc>Fr: &quot;Un jeu pour faire rebondir les mots&quot; par Michel Chéenne. Implementation par Maximilien Naveau
+En: &quot;A game to bounce words&quot; by Michel Chéenne. Implementation by Maximilien Naveau
+</desc>
+		<license>Unknown</license>
+		<categories>Games,Writing</categories>
+		<category>Games</category>
+		<web></web>
+		<source>https://github.com/MaximilienNaveau/trampoline</source>
+		<tracker></tracker>
+		<author>MaximilienNaveau</author>
+		<marketversion>3.1.3</marketversion>
+		<marketvercode>3001003</marketvercode>
+		<package>
+			<version>3.1.3</version>
+			<versioncode>3001003</versioncode>
+			<apkname>trampoline_v3.1.3.apk</apkname>
+			<hash type="sha256">e1fa82a02dec9a4e43e29e31df27bbeeb0f1dc32b6070d30c0f439580f1215ba</hash>
+			<size>46976447</size>
+			<sdkver>29</sdkver>
+			<targetSdkVersion>34</targetSdkVersion>
+			<added>2025-06-03</added>
+			<sig>4d84e611d6da5e895b5de35695d90bd3</sig>
+			<nativecode>arm64-v8a,armeabi-v7a</nativecode>
+		</package>
+		<package>
+			<version>3.1.0</version>
+			<versioncode>1</versioncode>
+			<apkname>trampoline_3.1.0.apk</apkname>
+			<hash type="sha256">1f1077458c043beb3164825c962352b7f0b9cc995ba970b7f9925c82e46e88d6</hash>
+			<size>23158112</size>
+			<sdkver>24</sdkver>
+			<targetSdkVersion>34</targetSdkVersion>
+			<added>2025-06-03</added>
+			<sig>a13e3f11e5d7f569655902c69e2005b8</sig>
+			<nativecode>armeabi-v7a</nativecode>
+		</package>
+	</application>
+</fdroid>

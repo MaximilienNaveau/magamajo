@@ -1,0 +1,337 @@
+{
+  "repo": {
+    "name": {
+      "en-US": "Magamajo F-Droid Repo Demo"
+    },
+    "description": {
+      "en-US": "This is a repository of apps to be used with F-Droid. Applications in this repository are either official binaries built by the original application developers, or are binaries built from source by the admin of Magamajo using the tools on https://gitlab.com/fdroid."
+    },
+    "icon": {
+      "en-US": {
+        "name": "/icons/rob_transparent.png",
+        "sha256": "46a85b7219ff45056491be4a18dc1896c34204cd6549610e7f8be527b9a08911",
+        "size": 941
+      }
+    },
+    "address": "https://raw.githubusercontent.com/MaximilienNaveau/magamajo/main/fdroid/repo",
+    "timestamp": 1748932452000,
+    "categories": {
+      "Games": {
+        "name": {
+          "en-US": "Games"
+        }
+      },
+      "Writing": {
+        "name": {
+          "en-US": "Writing"
+        }
+      },
+      "fdroid": {
+        "name": {
+          "en-US": "fdroid"
+        }
+      }
+    }
+  },
+  "packages": {
+    "190f7cf1bee2eddae0f05d26d35bf387a0f02337cf05bf331424693c92135a04": {
+      "metadata": {
+        "added": 1748932437000,
+        "categories": [
+          "fdroid"
+        ],
+        "lastUpdated": 1748932437000,
+        "name": {
+          "en-US": "categories"
+        }
+      },
+      "versions": {
+        "190f7cf1bee2eddae0f05d26d35bf387a0f02337cf05bf331424693c92135a04": {
+          "added": 1748932437000,
+          "file": {
+            "name": "/categories.txt",
+            "sha256": "190f7cf1bee2eddae0f05d26d35bf387a0f02337cf05bf331424693c92135a04",
+            "size": 6
+          },
+          "manifest": {
+            "versionName": "190f7cf",
+            "versionCode": 0
+          }
+        }
+      }
+    },
+    "com.Magamajo.trampoline": {
+      "metadata": {
+        "added": 1748932436000,
+        "categories": [
+          "Games",
+          "Writing"
+        ],
+        "lastUpdated": 1748932436000,
+        "sourceCode": "https://github.com/MaximilienNaveau/trampoline",
+        "screenshots": {
+          "phone": {
+            "en-US": [
+              {
+                "name": "/com.Magamajo.trampoline/en-US/phoneScreenshots/1.png",
+                "sha256": "b078cc8ab0ccb117b0201d5d27e2f7992117aae2a9d86ea01e3770758dcc6e4e",
+                "size": 47666
+              }
+            ]
+          }
+        },
+        "authorName": "MaximilienNaveau",
+        "name": {
+          "en-US": "trampoline"
+        },
+        "summary": {
+          "en-US": "\"Un jeu pour faire rebondir les mots\" par Michel Cheenne. Implementation par ..."
+        },
+        "description": {
+          "en-US": "Fr: \"Un jeu pour faire rebondir les mots\" par Michel Chéenne. Implementation par Maximilien Naveau\nEn: \"A game to bounce words\" by Michel Chéenne. Implementation by Maximilien Naveau\n"
+        },
+        "icon": {
+          "en-US": {
+            "name": "/icons/com.Magamajo.trampoline.3000000.png",
+            "sha256": "099a87d73d556d19c9d3cfc5c04aaf4f2ef93f32e66a0414c59ffc1c69f572eb",
+            "size": 528
+          }
+        },
+        "preferredSigner": "8935f73064a2687b89507277da7518098f31e73ede83f0770a6a7614221ccdbe"
+      },
+      "versions": {
+        "7ede95b7901f335915f22d39beacb96840e0607256217c6a31de5fa675bb5943": {
+          "added": 1748932436000,
+          "file": {
+            "name": "/trampoline_v3.0.0.apk",
+            "sha256": "7ede95b7901f335915f22d39beacb96840e0607256217c6a31de5fa675bb5943",
+            "size": 19713690
+          },
+          "manifest": {
+            "nativecode": [
+              "armeabi-v7a"
+            ],
+            "versionName": "3.0.0",
+            "versionCode": 3000000,
+            "usesSdk": {
+              "minSdkVersion": 19,
+              "targetSdkVersion": 30
+            },
+            "signer": {
+              "sha256": [
+                "8935f73064a2687b89507277da7518098f31e73ede83f0770a6a7614221ccdbe"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "com.magamajo.trampoline": {
+      "metadata": {
+        "added": 1748932435000,
+        "categories": [
+          "Games",
+          "Writing"
+        ],
+        "lastUpdated": 1748932437000,
+        "sourceCode": "https://github.com/MaximilienNaveau/trampoline",
+        "screenshots": {
+          "phone": {
+            "en-US": [
+              {
+                "name": "/com.magamajo.trampoline/en-US/phoneScreenshots/1.png",
+                "sha256": "b078cc8ab0ccb117b0201d5d27e2f7992117aae2a9d86ea01e3770758dcc6e4e",
+                "size": 47666
+              }
+            ]
+          }
+        },
+        "authorName": "MaximilienNaveau",
+        "name": {
+          "en-US": "trampoline"
+        },
+        "summary": {
+          "en-US": "\"Un jeu pour faire rebondir les mots\" par Michel Cheenne. Implementation par ..."
+        },
+        "description": {
+          "en-US": "Fr: \"Un jeu pour faire rebondir les mots\" par Michel Chéenne. Implementation par Maximilien Naveau\nEn: \"A game to bounce words\" by Michel Chéenne. Implementation by Maximilien Naveau\n"
+        },
+        "preferredSigner": "3f8ac7bb43411af12d792a8738bb3563d68b4858788f9327791447e53b7fc5d7"
+      },
+      "versions": {
+        "9b2c2cd0ca526469e896eca788d398242794c2552ea291bf9de5f64123326627": {
+          "added": 1748932436000,
+          "file": {
+            "name": "/trampoline_v3.1.0.apk",
+            "sha256": "9b2c2cd0ca526469e896eca788d398242794c2552ea291bf9de5f64123326627",
+            "size": 23158120
+          },
+          "manifest": {
+            "nativecode": [
+              "armeabi-v7a"
+            ],
+            "versionName": "3.1.0",
+            "versionCode": 1,
+            "usesSdk": {
+              "minSdkVersion": 24,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "3f8ac7bb43411af12d792a8738bb3563d68b4858788f9327791447e53b7fc5d7"
+              ]
+            }
+          }
+        },
+        "1f1077458c043beb3164825c962352b7f0b9cc995ba970b7f9925c82e46e88d6": {
+          "added": 1748932435000,
+          "file": {
+            "name": "/trampoline_3.1.0.apk",
+            "sha256": "1f1077458c043beb3164825c962352b7f0b9cc995ba970b7f9925c82e46e88d6",
+            "size": 23158112
+          },
+          "manifest": {
+            "nativecode": [
+              "armeabi-v7a"
+            ],
+            "versionName": "3.1.0",
+            "versionCode": 1,
+            "usesSdk": {
+              "minSdkVersion": 24,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "52dba92e9943decbf2f130effa905ff038a5657891823c8a4646d58e2c0259c7"
+              ]
+            }
+          }
+        },
+        "f6617ba70f79454216552c6b7b1219c9e01358bc282b3c91d657da7700a2922c": {
+          "added": 1748932435000,
+          "file": {
+            "name": "/trampoline_3.1.0_T2gSOtg.apk",
+            "sha256": "f6617ba70f79454216552c6b7b1219c9e01358bc282b3c91d657da7700a2922c",
+            "size": 23247760
+          },
+          "manifest": {
+            "nativecode": [
+              "armeabi-v7a"
+            ],
+            "versionName": "3.1.0",
+            "versionCode": 1,
+            "usesSdk": {
+              "minSdkVersion": 29,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "52dba92e9943decbf2f130effa905ff038a5657891823c8a4646d58e2c0259c7"
+              ]
+            }
+          }
+        },
+        "c21a22bb0ea3310004b3320c9ca32edb252ef01cf0721cfd82c0566733222523": {
+          "added": 1748932435000,
+          "file": {
+            "name": "/trampoline_3.1.0_kw4ko4J.apk",
+            "sha256": "c21a22bb0ea3310004b3320c9ca32edb252ef01cf0721cfd82c0566733222523",
+            "size": 38722818
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a"
+            ],
+            "versionName": "3.1.0",
+            "versionCode": 1,
+            "usesSdk": {
+              "minSdkVersion": 29,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "52dba92e9943decbf2f130effa905ff038a5657891823c8a4646d58e2c0259c7"
+              ]
+            }
+          }
+        },
+        "d7f0e9108272d843b03b00120db01764ccbcc1c46d4d33ef730dad6756f77a76": {
+          "added": 1748932435000,
+          "file": {
+            "name": "/trampoline_3.1.0_uTVB06f.apk",
+            "sha256": "d7f0e9108272d843b03b00120db01764ccbcc1c46d4d33ef730dad6756f77a76",
+            "size": 23242136
+          },
+          "manifest": {
+            "nativecode": [
+              "armeabi-v7a"
+            ],
+            "versionName": "3.1.0",
+            "versionCode": 1,
+            "usesSdk": {
+              "minSdkVersion": 34,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "52dba92e9943decbf2f130effa905ff038a5657891823c8a4646d58e2c0259c7"
+              ]
+            }
+          }
+        },
+        "e1fa82a02dec9a4e43e29e31df27bbeeb0f1dc32b6070d30c0f439580f1215ba": {
+          "added": 1748932437000,
+          "file": {
+            "name": "/trampoline_v3.1.3.apk",
+            "sha256": "e1fa82a02dec9a4e43e29e31df27bbeeb0f1dc32b6070d30c0f439580f1215ba",
+            "size": 46976447
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a"
+            ],
+            "versionName": "3.1.3",
+            "versionCode": 3001003,
+            "usesSdk": {
+              "minSdkVersion": 29,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "89ce10f08ba6e5a4c51adb3e1477c530b07a733b6b68073d58c78f5ef88f3402"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "f100451a2c2f3dec46e2f62acdf3d98e1465d0806dfa7f0f302f72e0aced705a": {
+      "metadata": {
+        "added": 1748932437000,
+        "categories": [
+          "fdroid"
+        ],
+        "lastUpdated": 1748932437000,
+        "name": {
+          "en-US": "rob_transparent"
+        }
+      },
+      "versions": {
+        "f100451a2c2f3dec46e2f62acdf3d98e1465d0806dfa7f0f302f72e0aced705a": {
+          "added": 1748932437000,
+          "file": {
+            "name": "/rob_transparent.png",
+            "sha256": "f100451a2c2f3dec46e2f62acdf3d98e1465d0806dfa7f0f302f72e0aced705a",
+            "size": 936869
+          },
+          "manifest": {
+            "versionName": "f100451",
+            "versionCode": 0
+          }
+        }
+      }
+    }
+  }
+}
