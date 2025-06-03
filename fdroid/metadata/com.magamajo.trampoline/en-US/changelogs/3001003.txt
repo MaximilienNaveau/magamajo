@@ -1,0 +1,7 @@
+## What's Changed
+* Featdure/improve grids by @MaximilienNaveau in https://github.com/MaximilienNaveau/trampoline/pull/42
+* Feature/load scene by @MaximilienNaveau in https://github.com/MaximilienNaveau/trampoline/pull/44
+* fix token color by @MaximilienNaveau in https://github.com/MaximilienNaveau/trampoline/pull/45
+
+
+**Full Changelog**: https://github.com/MaximilienNaveau/trampoline/compare/v3.1.2...v3.1.3

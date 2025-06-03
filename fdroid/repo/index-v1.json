@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1748932452000,
+    "timestamp": 1748935447000,
     "version": 20002,
     "name": "Magamajo F-Droid Repo Demo",
     "icon": "rob_transparent.png",
@@ -21,17 +21,6 @@
       "name": "categories",
       "added": 1748932437000,
       "packageName": "190f7cf1bee2eddae0f05d26d35bf387a0f02337cf05bf331424693c92135a04",
-      "lastUpdated": 1748932437000
-    },
-    {
-      "categories": [
-        "fdroid"
-      ],
-      "suggestedVersionCode": "2147483647",
-      "license": "Unknown",
-      "name": "rob_transparent",
-      "added": 1748932437000,
-      "packageName": "f100451a2c2f3dec46e2f62acdf3d98e1465d0806dfa7f0f302f72e0aced705a",
       "lastUpdated": 1748932437000
     },
     {
@@ -73,14 +62,15 @@
       "name": "trampoline",
       "sourceCode": "https://github.com/MaximilienNaveau/trampoline",
       "summary": "\"Un jeu pour faire rebondir les mots\" par Michel Cheenne. Implementation par ...",
-      "added": 1748932435000,
+      "added": 1748932436000,
       "packageName": "com.magamajo.trampoline",
       "lastUpdated": 1748932437000,
       "localized": {
         "en-US": {
           "phoneScreenshots": [
             "1.png"
-          ]
+          ],
+          "whatsNew": "## What's Changed\n* Featdure/improve grids by @MaximilienNaveau in https://github.com/MaximilienNaveau/trampoline/pull/42\n* Feature/load scene by @MaximilienNaveau in https://github.com/MaximilienNaveau/trampoline/pull/44\n* fix token color by @MaximilienNaveau in https://github.com/MaximilienNaveau/trampoline/pull/45\n\n\n**Full Changelog**: https://github.com/MaximilienNaveau/trampoline/compare/v3.1.2...v3.1.3"
         }
       }
     }
@@ -135,75 +125,6 @@
         "versionName": "3.1.0"
       },
       {
-        "added": 1748932435000,
-        "apkName": "trampoline_3.1.0.apk",
-        "hash": "1f1077458c043beb3164825c962352b7f0b9cc995ba970b7f9925c82e46e88d6",
-        "hashType": "sha256",
-        "minSdkVersion": 24,
-        "nativecode": [
-          "armeabi-v7a"
-        ],
-        "packageName": "com.magamajo.trampoline",
-        "sig": "a13e3f11e5d7f569655902c69e2005b8",
-        "signer": "52dba92e9943decbf2f130effa905ff038a5657891823c8a4646d58e2c0259c7",
-        "size": 23158112,
-        "targetSdkVersion": 34,
-        "versionCode": 1,
-        "versionName": "3.1.0"
-      },
-      {
-        "added": 1748932435000,
-        "apkName": "trampoline_3.1.0_T2gSOtg.apk",
-        "hash": "f6617ba70f79454216552c6b7b1219c9e01358bc282b3c91d657da7700a2922c",
-        "hashType": "sha256",
-        "minSdkVersion": 29,
-        "nativecode": [
-          "armeabi-v7a"
-        ],
-        "packageName": "com.magamajo.trampoline",
-        "sig": "a13e3f11e5d7f569655902c69e2005b8",
-        "signer": "52dba92e9943decbf2f130effa905ff038a5657891823c8a4646d58e2c0259c7",
-        "size": 23247760,
-        "targetSdkVersion": 34,
-        "versionCode": 1,
-        "versionName": "3.1.0"
-      },
-      {
-        "added": 1748932435000,
-        "apkName": "trampoline_3.1.0_kw4ko4J.apk",
-        "hash": "c21a22bb0ea3310004b3320c9ca32edb252ef01cf0721cfd82c0566733222523",
-        "hashType": "sha256",
-        "minSdkVersion": 29,
-        "nativecode": [
-          "arm64-v8a",
-          "armeabi-v7a"
-        ],
-        "packageName": "com.magamajo.trampoline",
-        "sig": "a13e3f11e5d7f569655902c69e2005b8",
-        "signer": "52dba92e9943decbf2f130effa905ff038a5657891823c8a4646d58e2c0259c7",
-        "size": 38722818,
-        "targetSdkVersion": 34,
-        "versionCode": 1,
-        "versionName": "3.1.0"
-      },
-      {
-        "added": 1748932435000,
-        "apkName": "trampoline_3.1.0_uTVB06f.apk",
-        "hash": "d7f0e9108272d843b03b00120db01764ccbcc1c46d4d33ef730dad6756f77a76",
-        "hashType": "sha256",
-        "minSdkVersion": 34,
-        "nativecode": [
-          "armeabi-v7a"
-        ],
-        "packageName": "com.magamajo.trampoline",
-        "sig": "a13e3f11e5d7f569655902c69e2005b8",
-        "signer": "52dba92e9943decbf2f130effa905ff038a5657891823c8a4646d58e2c0259c7",
-        "size": 23242136,
-        "targetSdkVersion": 34,
-        "versionCode": 1,
-        "versionName": "3.1.0"
-      },
-      {
         "added": 1748932437000,
         "apkName": "trampoline_v3.1.3.apk",
         "hash": "e1fa82a02dec9a4e43e29e31df27bbeeb0f1dc32b6070d30c0f439580f1215ba",
@@ -220,17 +141,6 @@
         "targetSdkVersion": 34,
         "versionCode": 3001003,
         "versionName": "3.1.3"
-      }
-    ],
-    "f100451a2c2f3dec46e2f62acdf3d98e1465d0806dfa7f0f302f72e0aced705a": [
-      {
-        "added": 1748932437000,
-        "apkName": "rob_transparent.png",
-        "hash": "f100451a2c2f3dec46e2f62acdf3d98e1465d0806dfa7f0f302f72e0aced705a",
-        "hashType": "sha256",
-        "packageName": "f100451a2c2f3dec46e2f62acdf3d98e1465d0806dfa7f0f302f72e0aced705a",
-        "size": 936869,
-        "versionName": "f100451"
       }
     ]
   }

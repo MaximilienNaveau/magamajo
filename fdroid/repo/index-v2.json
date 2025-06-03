@@ -14,7 +14,7 @@
       }
     },
     "address": "https://raw.githubusercontent.com/MaximilienNaveau/magamajo/main/fdroid/repo",
-    "timestamp": 1748932452000,
+    "timestamp": 1748935447000,
     "categories": {
       "Games": {
         "name": {
@@ -128,7 +128,7 @@
     },
     "com.magamajo.trampoline": {
       "metadata": {
-        "added": 1748932435000,
+        "added": 1748932436000,
         "categories": [
           "Games",
           "Writing"
@@ -183,103 +183,6 @@
             }
           }
         },
-        "1f1077458c043beb3164825c962352b7f0b9cc995ba970b7f9925c82e46e88d6": {
-          "added": 1748932435000,
-          "file": {
-            "name": "/trampoline_3.1.0.apk",
-            "sha256": "1f1077458c043beb3164825c962352b7f0b9cc995ba970b7f9925c82e46e88d6",
-            "size": 23158112
-          },
-          "manifest": {
-            "nativecode": [
-              "armeabi-v7a"
-            ],
-            "versionName": "3.1.0",
-            "versionCode": 1,
-            "usesSdk": {
-              "minSdkVersion": 24,
-              "targetSdkVersion": 34
-            },
-            "signer": {
-              "sha256": [
-                "52dba92e9943decbf2f130effa905ff038a5657891823c8a4646d58e2c0259c7"
-              ]
-            }
-          }
-        },
-        "f6617ba70f79454216552c6b7b1219c9e01358bc282b3c91d657da7700a2922c": {
-          "added": 1748932435000,
-          "file": {
-            "name": "/trampoline_3.1.0_T2gSOtg.apk",
-            "sha256": "f6617ba70f79454216552c6b7b1219c9e01358bc282b3c91d657da7700a2922c",
-            "size": 23247760
-          },
-          "manifest": {
-            "nativecode": [
-              "armeabi-v7a"
-            ],
-            "versionName": "3.1.0",
-            "versionCode": 1,
-            "usesSdk": {
-              "minSdkVersion": 29,
-              "targetSdkVersion": 34
-            },
-            "signer": {
-              "sha256": [
-                "52dba92e9943decbf2f130effa905ff038a5657891823c8a4646d58e2c0259c7"
-              ]
-            }
-          }
-        },
-        "c21a22bb0ea3310004b3320c9ca32edb252ef01cf0721cfd82c0566733222523": {
-          "added": 1748932435000,
-          "file": {
-            "name": "/trampoline_3.1.0_kw4ko4J.apk",
-            "sha256": "c21a22bb0ea3310004b3320c9ca32edb252ef01cf0721cfd82c0566733222523",
-            "size": 38722818
-          },
-          "manifest": {
-            "nativecode": [
-              "arm64-v8a",
-              "armeabi-v7a"
-            ],
-            "versionName": "3.1.0",
-            "versionCode": 1,
-            "usesSdk": {
-              "minSdkVersion": 29,
-              "targetSdkVersion": 34
-            },
-            "signer": {
-              "sha256": [
-                "52dba92e9943decbf2f130effa905ff038a5657891823c8a4646d58e2c0259c7"
-              ]
-            }
-          }
-        },
-        "d7f0e9108272d843b03b00120db01764ccbcc1c46d4d33ef730dad6756f77a76": {
-          "added": 1748932435000,
-          "file": {
-            "name": "/trampoline_3.1.0_uTVB06f.apk",
-            "sha256": "d7f0e9108272d843b03b00120db01764ccbcc1c46d4d33ef730dad6756f77a76",
-            "size": 23242136
-          },
-          "manifest": {
-            "nativecode": [
-              "armeabi-v7a"
-            ],
-            "versionName": "3.1.0",
-            "versionCode": 1,
-            "usesSdk": {
-              "minSdkVersion": 34,
-              "targetSdkVersion": 34
-            },
-            "signer": {
-              "sha256": [
-                "52dba92e9943decbf2f130effa905ff038a5657891823c8a4646d58e2c0259c7"
-              ]
-            }
-          }
-        },
         "e1fa82a02dec9a4e43e29e31df27bbeeb0f1dc32b6070d30c0f439580f1215ba": {
           "added": 1748932437000,
           "file": {
@@ -303,32 +206,6 @@
                 "89ce10f08ba6e5a4c51adb3e1477c530b07a733b6b68073d58c78f5ef88f3402"
               ]
             }
-          }
-        }
-      }
-    },
-    "f100451a2c2f3dec46e2f62acdf3d98e1465d0806dfa7f0f302f72e0aced705a": {
-      "metadata": {
-        "added": 1748932437000,
-        "categories": [
-          "fdroid"
-        ],
-        "lastUpdated": 1748932437000,
-        "name": {
-          "en-US": "rob_transparent"
-        }
-      },
-      "versions": {
-        "f100451a2c2f3dec46e2f62acdf3d98e1465d0806dfa7f0f302f72e0aced705a": {
-          "added": 1748932437000,
-          "file": {
-            "name": "/rob_transparent.png",
-            "sha256": "f100451a2c2f3dec46e2f62acdf3d98e1465d0806dfa7f0f302f72e0aced705a",
-            "size": 936869
-          },
-          "manifest": {
-            "versionName": "f100451",
-            "versionCode": 0
           }
         }
       }
