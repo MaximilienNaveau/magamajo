@@ -32,6 +32,22 @@ Please note that some apps published here might contain [Anti-Features](https://
 ### For developers
 If you are a developer and want to publish your own apps right from GitHub Actions as an F-Droid repo, you can fork/copy this repo and see  [the documentation](setup.md) for more information on how to set it up.
 
+#### Development Environment
+
+This project uses Nix flakes for reproducible development environments. The Rust toolchain is provided via [rust-overlay](https://github.com/oxalica/rust-overlay), which offers several benefits:
+
+1. **Always up-to-date**: Gets Rust toolchains directly from the official Rust distribution, ensuring you have the latest stable releases immediately (nixpkgs can lag behind by weeks)
+2. **Version flexibility**: Easy to pin to specific Rust versions or switch between stable/beta/nightly
+3. **Component management**: Cleanly add rust-analyzer, rust-src, clippy as extensions
+4. **Consistency**: Uses the same binaries as rustup, avoiding subtle differences
+
+To set up the development environment:
+```bash
+direnv allow  # If you have direnv installed
+# or
+nix develop   # To manually enter the dev shell
+```
+
 ### [License](LICENSE)
 The license is for the files in this repository, *except* those in the `fdroid` directory. These files *might* be licensed differently; you can use an F-Droid client to get the details for each app.
 
