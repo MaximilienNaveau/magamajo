@@ -6,8 +6,8 @@ pub fn clone_repo(git_url: &str) -> Result<PathBuf> {
     let temp_dir = tempfile::tempdir()
         .context("Failed to create temporary directory")?;
     
-    let dir_path = temp_dir.into_path();
-
+    let dir_path = temp_dir.path().to_path_buf();
+    
     let output = Command::new("git")
         .args(["clone", git_url, dir_path.to_str().unwrap()])
         .output()
@@ -19,6 +19,10 @@ pub fn clone_repo(git_url: &str) -> Result<PathBuf> {
             String::from_utf8_lossy(&output.stderr)
         );
     }
+
+    // Keep the directory by consuming the TempDir without cleanup
+    #[allow(deprecated)]
+    let _ = temp_dir.into_path();
 
     Ok(dir_path)
 }

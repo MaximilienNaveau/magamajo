@@ -54,6 +54,7 @@ impl AppInfo {
 pub struct Repo {
     pub author: String,
     pub name: String,
+    #[allow(dead_code)]
     pub host: String,
 }
 
@@ -144,7 +145,7 @@ pub struct RepoIndex {
     pub packages: HashMap<String, Vec<PackageInfo>>,
 }
 
-#[derive(Debug, Clone, Deserialize, Serialize)]
+#[derive(Debug, Clone, Deserialize, Serialize, PartialEq)]
 #[serde(rename_all = "camelCase")]
 pub struct PackageInfo {
     pub added: i64,

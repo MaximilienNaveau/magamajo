@@ -26,7 +26,7 @@ struct Args {
     repo_dir: PathBuf,
 
     /// GitHub personal access token
-    #[arg(short = 'p', long, env = "GITHUB_TOKEN")]
+    #[arg(short = 'p', long)]
     personal_access_token: Option<String>,
 
     /// Debug mode won't run the fdroid command
@@ -38,7 +38,12 @@ struct Args {
 async fn main() -> Result<()> {
     env_logger::Builder::from_env(env_logger::Env::default().default_filter_or("info")).init();
 
-    let args = Args::parse();
+    let mut args = Args::parse();
+
+    // If no token provided via CLI, check environment variable
+    if args.personal_access_token.is_none() {
+        args.personal_access_token = std::env::var("GITHUB_TOKEN").ok();
+    }
 
     println!("::group::Initializing");
 
@@ -83,9 +88,7 @@ async fn main() -> Result<()> {
                 }
 
                 if let Some(license) = gh_repo.license {
-                    if let Some(spdx_id) = license.spdx_id {
-                        app.license = spdx_id;
-                    }
+                    app.license = license.spdx_id;
                 }
 
                 info!("Data from GitHub: summary={:?}, license={:?}", app.summary, app.license);
@@ -104,7 +107,7 @@ async fn main() -> Result<()> {
             .await
         {
             Ok(page) => {
-                let mut all_releases = page.items;
+                let all_releases = page.items;
                 // For simplicity, we're only getting the first page
                 // In production, you'd want to paginate through all results
                 all_releases
@@ -464,7 +467,7 @@ fn set_non_empty(meta: &mut HashMap<String, serde_yaml::Value>, key: &str, value
 }
 
 async fn download_asset(
-    github: &Octocrab,
+    _github: &Octocrab,
     owner: &str,
     repo: &str,
     asset_id: u64,
