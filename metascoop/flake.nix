@@ -1,8 +1,18 @@
 {
-  description = "Metascoop Go development environment";
+  description = "Metascoop Rust development environment";
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
+
+    # rust-overlay provides several benefits over using Rust directly from nixpkgs:
+    # 1. Always up-to-date: Gets Rust toolchains directly from the official Rust distribution,
+    #    so you get new stable releases immediately (nixpkgs can lag behind by weeks)
+    # 2. Version flexibility: Easy to pin to specific Rust versions or switch between stable/beta/nightly
+    #    e.g., pkgs.rust-bin.stable."1.75.0".default for a specific version
+    # 3. Component management: Cleanly add rust-analyzer, rust-src, clippy as extensions
+    # 4. Consistency: Uses the same binaries as rustup, avoiding subtle differences
+    rust-overlay.url = "github:oxalica/rust-overlay";
+
     flake-utils.url = "github:numtide/flake-utils";
   };
 
@@ -10,50 +20,51 @@
     {
       self,
       nixpkgs,
+      rust-overlay,
       flake-utils,
     }:
     flake-utils.lib.eachDefaultSystem (
       system:
       let
-        pkgs = import nixpkgs { inherit system; };
+        overlays = [ (import rust-overlay) ];
+        pkgs = import nixpkgs {
+          inherit system overlays;
+        };
+        rustToolchain = pkgs.rust-bin.stable.latest.default.override {
+          extensions = [
+            "rust-src"
+            "rust-analyzer"
+          ];
+        };
       in
       {
         devShells.default = pkgs.mkShell {
           buildInputs = with pkgs; [
-            # Go toolchain
-            go
-            gopls # Go language server
-            gotools # Additional Go tools
-            go-tools # Static analysis tools
+            rustToolchain
+            cargo
+            rustc
+            rust-analyzer
+            rustfmt
+            clippy
 
-            # Build dependencies
+            # Dependencies for the project
             pkg-config
-
-            # Git for cloning repos
+            openssl
             git
 
-            # F-Droid tools
+            # For F-Droid integration
             jdk17
           ];
 
           shellHook = ''
-            echo "🐹 Metascoop Go development environment loaded"
-            echo "Go version: $(go version)"
-            echo ""
-            echo "Available commands:"
-            echo "  go build             - Build the binary"
-            echo "  go run .             - Run the application"
-            echo "  go run . -debug      - Run in debug mode (no fdroid)"
-            echo "  go test ./...        - Run tests"
-            echo ""
-            echo "Usage example:"
-            echo "  go run . -ap apps.yaml -rd fdroid/repo -debug"
-            echo ""
-            echo "Set GITHUB_TOKEN environment variable for GitHub API access"
+            echo "Rust development environment loaded"
+            echo "Rust version: $(rustc --version)"
+            echo "Cargo version: $(cargo --version)"
           '';
 
           # Environment variables
-          CGO_ENABLED = "1";
+          RUST_BACKTRACE = "1";
+          PKG_CONFIG_PATH = "${pkgs.openssl.dev}/lib/pkgconfig";
         };
       }
     );

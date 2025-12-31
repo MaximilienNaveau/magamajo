@@ -30,6 +30,8 @@ pub struct AppInfo {
     pub key_name: String,
     #[serde(skip)]
     pub repo_author: String,
+    #[serde(default)]
+    pub skip_versions: Vec<String>,
 }
 
 impl AppInfo {

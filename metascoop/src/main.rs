@@ -142,6 +142,12 @@ async fn main() -> Result<()> {
                 continue;
             }
 
+            if app.skip_versions.contains(&release.tag_name) {
+                info!("Skipping version {:?} (configured in skip_versions)", release.tag_name);
+                println!("::endgroup::");
+                continue;
+            }
+
             info!("Working on release with tag name {:?}", release.tag_name);
 
             let apk = match apps::find_apk_release(&release) {

@@ -14,3 +14,7 @@ trampoline:
   categories: 
     - Games
     - Writing
+  
+  # Skip v3.0.0 due to incorrect package name (com.Magamajo.trampoline instead of com.magamajo.trampoline)
+  skip_versions:
+    - "v3.0.0"

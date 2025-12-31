@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd metascoop-rs
+cd metascoop
 echo "::group::Building metascoop-rs executable"
 nix develop --command cargo build --release
 echo "::endgroup::"
