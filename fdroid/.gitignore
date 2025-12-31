@@ -4,6 +4,9 @@ keystore.p12
 *.jks
 *.keystore
 
+# Temporary tarball (only commit encrypted .gpg version)
+fdroid-secrets.tar.gz
+
 # F-Droid build outputs
 tmp/
 unsigned/
