@@ -44,7 +44,7 @@ jobs:
       - name: Cache Nix store
         uses: cachix/cachix-action@v15
         with:
-          name: metascoop
+          name: baxter
           authToken: '${{ secrets.CACHIX_AUTH_TOKEN }}'
           skipPush: ${{ secrets.CACHIX_AUTH_TOKEN == '' }}
         
