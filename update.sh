@@ -1,11 +1,11 @@
 #!/bin/bash
 
-cd metascoop
-echo "::group::Building metascoop executable"
-go build -o metascoop
+cd metascoop-rs
+echo "::group::Building metascoop-rs executable"
+nix develop --command cargo build --release
 echo "::endgroup::"
 
-./metascoop -ap=../apps.yaml -rd=../fdroid/repo -pat="$GH_ACCESS_TOKEN" $1
+nix develop --command ./target/release/metascoop --apps-path=../apps.yaml --repo-dir=../fdroid/repo --personal-access-token="$GH_ACCESS_TOKEN" $1
 EXIT_CODE=$?
 cd ..
 

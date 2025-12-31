@@ -36,10 +36,17 @@ jobs:
           echo "${{ secrets.KEYSTORE_P12 }}" | base64 -d - > fdroid/keystore.p12
           echo "${{ secrets.CONFIG_YML }}" | base64 -d - > fdroid/config.yml
 
-      - uses: actions/setup-go@v6
-        name: Set up Go
+      - name: Install Nix
+        uses: cachix/install-nix-action@v27
         with:
-          go-version: '^1.24.0' 
+          github_access_token: ${{ secrets.GITHUB_TOKEN }}
+          
+      - name: Cache Nix store
+        uses: cachix/cachix-action@v15
+        with:
+          name: metascoop
+          authToken: '${{ secrets.CACHIX_AUTH_TOKEN }}'
+          skipPush: ${{ secrets.CACHIX_AUTH_TOKEN == '' }}
         
       - name: Run update script
         run: bash update.sh 2>&1
