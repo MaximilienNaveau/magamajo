@@ -22,8 +22,40 @@ jobs:
 
       - name: Restore correct mtime
         run: |
-          sudo apt install git-restore-mtime 
-          git restore-mtime
+          python3 -c "
+          import subprocess
+          import os
+          from pathlib import Path
+          
+          # Get all files tracked by git with their last commit timestamp
+          result = subprocess.run(
+              ['git', 'log', '--pretty=%at', '--name-status', '--diff-filter=AMRC'],
+              capture_output=True, text=True, check=True
+          )
+          
+          files = {}
+          current_time = None
+          
+          for line in result.stdout.splitlines():
+              line = line.strip()
+              if not line:
+                  continue
+              if line.isdigit():
+                  current_time = int(line)
+              elif current_time and '\t' in line:
+                  parts = line.split('\t')
+                  if len(parts) >= 2:
+                      filepath = parts[-1]
+                      if filepath not in files and Path(filepath).exists():
+                          files[filepath] = current_time
+          
+          # Set mtime for all files
+          for filepath, timestamp in files.items():
+              try:
+                  os.utime(filepath, (timestamp, timestamp))
+              except:
+                  pass
+          "
 
       - name: Install F-Droid server software
         run: |
@@ -35,6 +67,7 @@ jobs:
         run: |
           echo "${{ secrets.KEYSTORE_P12 }}" | base64 -d - > fdroid/keystore.p12
           echo "${{ secrets.CONFIG_YML }}" | base64 -d - > fdroid/config.yml
+          chmod 600 fdroid/config.yml
 
       - name: Install Nix
         uses: cachix/install-nix-action@v27
