@@ -16,7 +16,7 @@ trampoline:
     - Writing
   
   # Skip v3.0.0 due to incorrect package name (com.Magamajo.trampoline instead of com.magamajo.trampoline)
-  # Skip v3.1.2 due to corrupted resources.arsc (androguard parsing error)
+  # Skip v3.1.2 - release has no APK attached
   skip_versions:
     - "v3.0.0"
     - "v3.1.2"
