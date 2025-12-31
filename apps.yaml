@@ -1,3 +1,7 @@
+# Apps configuration for F-Droid repository
+# Only apps listed here will have their metadata managed by metascoop
+# The fdroid update command with --delete-unknown will remove metadata for unlisted apps
+
 trampoline:
   git: https://github.com/MaximilienNaveau/trampoline
   name: "trampoline"
