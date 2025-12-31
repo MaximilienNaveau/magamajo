@@ -1,0 +1,9 @@
+# F-Droid sensitive files - DO NOT COMMIT
+config.yml
+keystore.p12
+*.jks
+*.keystore
+
+# F-Droid build outputs
+tmp/
+unsigned/
