@@ -14,7 +14,7 @@
       }
     },
     "address": "https://raw.githubusercontent.com/MaximilienNaveau/magamajo/main/fdroid/repo",
-    "timestamp": 1766634812000,
+    "timestamp": 1767438117000,
     "categories": {
       "Games": {
         "name": {
@@ -29,72 +29,6 @@
     }
   },
   "packages": {
-    "com.Magamajo.trampoline": {
-      "metadata": {
-        "added": 1748932436000,
-        "categories": [
-          "Games",
-          "Writing"
-        ],
-        "lastUpdated": 1748932436000,
-        "sourceCode": "https://github.com/MaximilienNaveau/trampoline",
-        "screenshots": {
-          "phone": {
-            "en-US": [
-              {
-                "name": "/com.Magamajo.trampoline/en-US/phoneScreenshots/1.png",
-                "sha256": "b078cc8ab0ccb117b0201d5d27e2f7992117aae2a9d86ea01e3770758dcc6e4e",
-                "size": 47666
-              }
-            ]
-          }
-        },
-        "authorName": "MaximilienNaveau",
-        "name": {
-          "en-US": "trampoline"
-        },
-        "summary": {
-          "en-US": "\"Un jeu pour faire rebondir les mots\" par Michel Cheenne. Implementation par ..."
-        },
-        "description": {
-          "en-US": "Fr: \"Un jeu pour faire rebondir les mots\" par Michel Chéenne. Implementation par Maximilien Naveau\nEn: \"A game to bounce words\" by Michel Chéenne. Implementation by Maximilien Naveau\n"
-        },
-        "icon": {
-          "en-US": {
-            "name": "/icons/com.Magamajo.trampoline.3000000.png",
-            "sha256": "099a87d73d556d19c9d3cfc5c04aaf4f2ef93f32e66a0414c59ffc1c69f572eb",
-            "size": 528
-          }
-        },
-        "preferredSigner": "8935f73064a2687b89507277da7518098f31e73ede83f0770a6a7614221ccdbe"
-      },
-      "versions": {
-        "7ede95b7901f335915f22d39beacb96840e0607256217c6a31de5fa675bb5943": {
-          "added": 1748932436000,
-          "file": {
-            "name": "/trampoline_v3.0.0.apk",
-            "sha256": "7ede95b7901f335915f22d39beacb96840e0607256217c6a31de5fa675bb5943",
-            "size": 19713690
-          },
-          "manifest": {
-            "nativecode": [
-              "armeabi-v7a"
-            ],
-            "versionName": "3.0.0",
-            "versionCode": 3000000,
-            "usesSdk": {
-              "minSdkVersion": 19,
-              "targetSdkVersion": 30
-            },
-            "signer": {
-              "sha256": [
-                "8935f73064a2687b89507277da7518098f31e73ede83f0770a6a7614221ccdbe"
-              ]
-            }
-          }
-        }
-      }
-    },
     "com.magamajo.trampoline": {
       "metadata": {
         "added": 1748932436000,
@@ -102,7 +36,7 @@
           "Games",
           "Writing"
         ],
-        "lastUpdated": 1748932437000,
+        "lastUpdated": 1767438109000,
         "sourceCode": "https://github.com/MaximilienNaveau/trampoline",
         "screenshots": {
           "phone": {
@@ -150,6 +84,36 @@
                 "3f8ac7bb43411af12d792a8738bb3563d68b4858788f9327791447e53b7fc5d7"
               ]
             }
+          }
+        },
+        "464fb101c8ecb27639947dc37b497e8367781f4cee63998fcf2c8706add917f2": {
+          "added": 1767438109000,
+          "file": {
+            "name": "/trampoline_v3.2.0.apk",
+            "sha256": "464fb101c8ecb27639947dc37b497e8367781f4cee63998fcf2c8706add917f2",
+            "size": 54121495
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a"
+            ],
+            "versionName": "3.2.0",
+            "versionCode": 3002000,
+            "usesSdk": {
+              "minSdkVersion": 29,
+              "targetSdkVersion": 33
+            },
+            "signer": {
+              "sha256": [
+                "89ce10f08ba6e5a4c51adb3e1477c530b07a733b6b68073d58c78f5ef88f3402"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              }
+            ]
           }
         },
         "b507c195096b49e0b6b93bb1aa65519852a6e795094fb731183dd59393768b8e": {

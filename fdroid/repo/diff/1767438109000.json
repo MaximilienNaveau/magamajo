@@ -1,0 +1,14 @@
+{
+  "repo": {
+    "timestamp": 1767438117000
+  },
+  "packages": {
+    "com.magamajo.trampoline": {
+      "versions": {
+        "464fb101c8ecb27639947dc37b497e8367781f4cee63998fcf2c8706add917f2": {
+          "releaseChannels": null
+        }
+      }
+    }
+  }
+}
