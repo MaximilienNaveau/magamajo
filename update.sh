@@ -2,12 +2,13 @@
 
 cd metascoop
 echo "::group::Building metascoop-rs executable"
-nix develop --command cargo build --release
+nix develop --command bash -c "cargo build --release"
 echo "::endgroup::"
-
-nix develop --command ./target/release/metascoop --apps-path=../apps.yaml --repo-dir=../fdroid/repo --personal-access-token="$GH_ACCESS_TOKEN" $1
-EXIT_CODE=$?
 cd ..
+
+# Run metascoop from parent directory inside nix develop so fdroid is available
+nix develop --command bash -c "./metascoop/target/release/metascoop --apps-path=apps.yaml --repo-dir=fdroid/repo --personal-access-token=\"$GH_ACCESS_TOKEN\" $1"
+EXIT_CODE=$?
 
 echo "Scoop had an exit code of $EXIT_CODE"
 
