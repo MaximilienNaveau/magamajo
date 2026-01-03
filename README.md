@@ -6,8 +6,7 @@ This repository hosts an [F-Droid](https://f-droid.org/) repo for my apps. This 
 <!-- This table is auto-generated. Do not edit -->
 | Icon | Name | Description | Version |
 | --- | --- | --- | --- |
-| <a href="https://github.com/MaximilienNaveau/trampoline"><img src="fdroid/repo/icons/com.Magamajo.trampoline.3000000.png" alt="trampoline icon" width="36px" height="36px"></a> | [**trampoline**](https://github.com/MaximilienNaveau/trampoline) | &#34;Un jeu pour faire rebondir les mots&#34; par Michel Cheenne. Implementation par ... | 3.0.0 (3000000) |
-| <a href="https://github.com/MaximilienNaveau/trampoline"><img src="fdroid/repo/icons/" alt="trampoline icon" width="36px" height="36px"></a> | [**trampoline**](https://github.com/MaximilienNaveau/trampoline) | &#34;Un jeu pour faire rebondir les mots&#34; par Michel Cheenne. Implementation par ... | 3.1.3 (3001003) |
+| <a href="https://github.com/MaximilienNaveau/trampoline"><img src="fdroid/repo/icons/com.magamajo.trampoline.3002000.png" alt="trampoline icon" width="36px" height="36px"></a> | [**trampoline**](https://github.com/MaximilienNaveau/trampoline) | "Un jeu pour faire rebondir les mots" par Michel Cheenne. Implementation par ... | 3.2.0 (3002000) |
 <!-- end apps table -->
 
 ### How to use
