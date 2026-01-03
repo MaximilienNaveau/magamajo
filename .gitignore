@@ -7,6 +7,8 @@ keystore.p12
 config.yml
 keystore_base64.txt
 config_base64.txt
+.direnv
+
 fdroid/tmp
 fdroid/repo/status
 fdroid/metadata/**/phoneScreenshots
