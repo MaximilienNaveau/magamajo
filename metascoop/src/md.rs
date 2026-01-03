@@ -12,7 +12,7 @@ const TABLE_TMPL: &str = r#"
 | Icon | Name | Description | Version |
 | --- | --- | --- | --- |
 {% for app in apps -%}
-| <a href="{{ app.sourceCode }}"><img src="fdroid/repo/icons/{{ app.icon }}" alt="{{ app.name }} icon" width="36px" height="36px"></a> | [**{{ app.name }}**]({{ app.sourceCode }}) | {{ app.summary }} | {{ app.suggestedVersionName }} ({{ app.suggestedVersionCode }}) |
+| <a href="{{ app.sourceCode }}"><img src="fdroid/repo/icons/{{ app.packageName }}.{{ app.suggestedVersionCode }}.png" alt="{{ app.name }} icon" width="36px" height="36px"></a> | [**{{ app.name }}**]({{ app.sourceCode }}) | {{ app.summary }} | {{ app.suggestedVersionName }} ({{ app.suggestedVersionCode }}) |
 {% endfor -%}
 "#;
 
