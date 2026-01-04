@@ -1,14 +1,14 @@
-WebSite: ''
-SourceCode: https://github.com/MaximilienNaveau/trampoline
-Summary: '"Un jeu pour faire rebondir les mots" par Michel Cheenne. Implementation par ...'
-Description: |
-  Fr: "Un jeu pour faire rebondir les mots" par Michel Chéenne. Implementation par Maximilien Naveau
-  En: "A game to bounce words" by Michel Chéenne. Implementation by Maximilien Naveau
-IssueTracker: ''
-CurrentVersion: 3.2.0
-Name: trampoline
-AuthorName: MaximilienNaveau
 Categories:
 - Games
 - Writing
+CurrentVersion: 3.2.0
+SourceCode: https://github.com/MaximilienNaveau/trampoline
+AuthorName: MaximilienNaveau
+IssueTracker: ''
+Summary: '"Un jeu pour faire rebondir les mots" par Michel Cheenne. Implementation par ...'
+Name: trampoline
 CurrentVersionCode: 3002000
+WebSite: ''
+Description: |
+  Fr: "Un jeu pour faire rebondir les mots" par Michel Chéenne. Implementation par Maximilien Naveau
+  En: "A game to bounce words" by Michel Chéenne. Implementation by Maximilien Naveau
