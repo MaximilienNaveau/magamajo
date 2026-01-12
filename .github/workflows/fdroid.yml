@@ -65,7 +65,7 @@ jobs:
           github_access_token: ${{ secrets.GITHUB_TOKEN }}
           
       - name: Cache Nix store
-        uses: cachix/cachix-action@v15
+        uses: cachix/cachix-action@v16
         with:
           name: baxter
           authToken: '${{ secrets.CACHIX_AUTH_TOKEN }}'
