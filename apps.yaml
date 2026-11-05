@@ -17,6 +17,10 @@ trampoline:
   
   # Skip v3.0.0 due to incorrect package name (com.Magamajo.trampoline instead of com.magamajo.trampoline)
   # Skip v3.1.2 - release has no APK attached
+  # Skip v3.1.0 - the only APK signed with another key (3f8ac7bb...): with it
+  # in the repo, fdroid made that key the preferred signer and recommended
+  # this old Unity build instead of the current one (signed 89ce10f0...).
   skip_versions:
     - "v3.0.0"
+    - "v3.1.0"
     - "v3.1.2"
