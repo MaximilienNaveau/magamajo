@@ -11,6 +11,14 @@ on:
 permissions:
   contents: write
 
+# One update at a time: a release, a push and the nightly run can arrive
+# together (they did for trampoline 4.0.0), and a second run would then try
+# to push on top of the first one's commit. Later runs wait (only the
+# latest waiting one is kept, which is enough: each run publishes all).
+concurrency:
+  group: fdroid-repo
+  cancel-in-progress: false
+
 jobs:
   apps:
     name: "Generate repo from apps listing"
@@ -87,5 +95,10 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add . --all
+          # Nothing new (e.g. an earlier run already published it): done.
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
           git commit -m "Automated update"
           git push
