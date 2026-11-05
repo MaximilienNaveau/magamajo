@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1793872751000,
+    "timestamp": 1793898774000,
     "version": 20002,
     "name": "Magamajo F-Droid Repo Demo",
     "icon": "rob_transparent.png",
@@ -18,8 +18,8 @@
         "Games",
         "Writing"
       ],
-      "suggestedVersionName": "3.2.0",
-      "suggestedVersionCode": "3002000",
+      "suggestedVersionName": "4.0.0",
+      "suggestedVersionCode": "4000000",
       "description": "Fr: \"Un jeu pour faire rebondir les mots\" par Michel Ch\u00e9enne. Implementation par Maximilien Naveau\nEn: \"A game to bounce words\" by Michel Ch\u00e9enne. Implementation by Maximilien Naveau\n",
       "license": "Unknown",
       "name": "trampoline",
@@ -27,7 +27,7 @@
       "summary": "\"Un jeu pour faire rebondir les mots\" par Michel Cheenne. Implementation par ...",
       "added": 1748932436000,
       "packageName": "com.magamajo.trampoline",
-      "lastUpdated": 1767438109000,
+      "lastUpdated": 1793898765000,
       "localized": {
         "en-US": {
           "phoneScreenshots": [
@@ -55,6 +55,23 @@
         "targetSdkVersion": 34,
         "versionCode": 1,
         "versionName": "3.1.0"
+      },
+      {
+        "added": 1793898765000,
+        "apkName": "trampoline_v4.0.0.apk",
+        "hash": "a87b889cf7fec501a38c9d82edc06232f6d8a87a2ca23feb48e13705455a6ca9",
+        "hashType": "sha256",
+        "minSdkVersion": 24,
+        "nativecode": [
+          "arm64-v8a"
+        ],
+        "packageName": "com.magamajo.trampoline",
+        "sig": "4d84e611d6da5e895b5de35695d90bd3",
+        "signer": "89ce10f08ba6e5a4c51adb3e1477c530b07a733b6b68073d58c78f5ef88f3402",
+        "size": 30238114,
+        "targetSdkVersion": 36,
+        "versionCode": 4000000,
+        "versionName": "4.0.0"
       },
       {
         "added": 1767438109000,
