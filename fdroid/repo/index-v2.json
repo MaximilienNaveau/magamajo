@@ -14,7 +14,7 @@
       }
     },
     "address": "https://raw.githubusercontent.com/MaximilienNaveau/magamajo/main/fdroid/repo",
-    "timestamp": 1793899745000,
+    "timestamp": 1793900810000,
     "categories": {
       "Games": {
         "name": {
@@ -31,24 +31,13 @@
   "packages": {
     "com.magamajo.trampoline": {
       "metadata": {
-        "added": 1748932436000,
+        "added": 1748932437000,
         "categories": [
           "Games",
           "Writing"
         ],
         "lastUpdated": 1793898765000,
         "sourceCode": "https://github.com/MaximilienNaveau/trampoline",
-        "screenshots": {
-          "phone": {
-            "en-US": [
-              {
-                "name": "/com.magamajo.trampoline/en-US/phoneScreenshots/1.png",
-                "sha256": "b078cc8ab0ccb117b0201d5d27e2f7992117aae2a9d86ea01e3770758dcc6e4e",
-                "size": 47666
-              }
-            ]
-          }
-        },
         "authorName": "MaximilienNaveau",
         "name": {
           "en-US": "trampoline"
@@ -59,33 +48,9 @@
         "description": {
           "en-US": "Fr: \"Un jeu pour faire rebondir les mots\" par Michel Chéenne. Implementation par Maximilien Naveau\nEn: \"A game to bounce words\" by Michel Chéenne. Implementation by Maximilien Naveau\n"
         },
-        "preferredSigner": "3f8ac7bb43411af12d792a8738bb3563d68b4858788f9327791447e53b7fc5d7"
+        "preferredSigner": "89ce10f08ba6e5a4c51adb3e1477c530b07a733b6b68073d58c78f5ef88f3402"
       },
       "versions": {
-        "9b2c2cd0ca526469e896eca788d398242794c2552ea291bf9de5f64123326627": {
-          "added": 1748932436000,
-          "file": {
-            "name": "/trampoline_v3.1.0.apk",
-            "sha256": "9b2c2cd0ca526469e896eca788d398242794c2552ea291bf9de5f64123326627",
-            "size": 23158120
-          },
-          "manifest": {
-            "nativecode": [
-              "armeabi-v7a"
-            ],
-            "versionName": "3.1.0",
-            "versionCode": 1,
-            "usesSdk": {
-              "minSdkVersion": 24,
-              "targetSdkVersion": 34
-            },
-            "signer": {
-              "sha256": [
-                "3f8ac7bb43411af12d792a8738bb3563d68b4858788f9327791447e53b7fc5d7"
-              ]
-            }
-          }
-        },
         "a87b889cf7fec501a38c9d82edc06232f6d8a87a2ca23feb48e13705455a6ca9": {
           "added": 1793898765000,
           "file": {
