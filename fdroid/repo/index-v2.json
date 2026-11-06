@@ -14,7 +14,7 @@
       }
     },
     "address": "https://raw.githubusercontent.com/MaximilienNaveau/magamajo/main/fdroid/repo",
-    "timestamp": 1793960446000,
+    "timestamp": 1793962767000,
     "categories": {
       "Games": {
         "name": {
@@ -36,14 +36,76 @@
           "Games",
           "Writing"
         ],
-        "lastUpdated": 1793898765000,
+        "lastUpdated": 1793962756000,
+        "license": "GPL-3.0",
         "sourceCode": "https://github.com/MaximilienNaveau/trampoline",
+        "screenshots": {
+          "phone": {
+            "en-US": [
+              {
+                "name": "/com.magamajo.trampoline/en-US/phoneScreenshots/1.jpg",
+                "sha256": "95a60540c9cf7b48be261be164150d069f7642233430193d892341d66deccaa0",
+                "size": 144520
+              },
+              {
+                "name": "/com.magamajo.trampoline/en-US/phoneScreenshots/10.jpg",
+                "sha256": "afa88af727c5b72cf34f072ddca313e533bce9f3af7ce4de7e2dfa87a3ef247e",
+                "size": 145701
+              },
+              {
+                "name": "/com.magamajo.trampoline/en-US/phoneScreenshots/11.jpg",
+                "sha256": "bd72f2d6fd2a8c021d866c565f59e093eb116544101d997587d76d504dc858fd",
+                "size": 140701
+              },
+              {
+                "name": "/com.magamajo.trampoline/en-US/phoneScreenshots/2.jpg",
+                "sha256": "69463dbd825414e8c9652b0238e4535c5eb8df054d03df6149e883396ddd4ec7",
+                "size": 232196
+              },
+              {
+                "name": "/com.magamajo.trampoline/en-US/phoneScreenshots/3.jpg",
+                "sha256": "46d0510f2d1fc1bb4eac56069e94ee58e7d105fa632d7b82edf87945b4eae27e",
+                "size": 146258
+              },
+              {
+                "name": "/com.magamajo.trampoline/en-US/phoneScreenshots/4.jpg",
+                "sha256": "e43d58ae7095a835ecfeffa20a2b22343cf8e48350597a65b42a039c63071bea",
+                "size": 134001
+              },
+              {
+                "name": "/com.magamajo.trampoline/en-US/phoneScreenshots/5.jpg",
+                "sha256": "aa1237047c438bb07d248f7d3f026d3d0d39218b3de9d5021aca545807fb4d42",
+                "size": 147858
+              },
+              {
+                "name": "/com.magamajo.trampoline/en-US/phoneScreenshots/6.jpg",
+                "sha256": "6e0ddb01a6da719103bf066af9dec4dcd9da34701286b6416adac32bddc456e2",
+                "size": 142866
+              },
+              {
+                "name": "/com.magamajo.trampoline/en-US/phoneScreenshots/7.jpg",
+                "sha256": "feae2c5d19a74b83428d98560bc8daf531fe3ef36bd2a3da7aea4b53d67811e2",
+                "size": 146750
+              },
+              {
+                "name": "/com.magamajo.trampoline/en-US/phoneScreenshots/8.jpg",
+                "sha256": "e900552fe13d73626b41f6c479cce48a36ef733b784e6bdf1a4621fff2c95a71",
+                "size": 148166
+              },
+              {
+                "name": "/com.magamajo.trampoline/en-US/phoneScreenshots/9.jpg",
+                "sha256": "94a7a498fe2e8db449abf47c2c358be822eec20fb9cc7befa55bb1b31441273c",
+                "size": 145775
+              }
+            ]
+          }
+        },
         "authorName": "MaximilienNaveau",
         "name": {
           "en-US": "Trampoline"
         },
         "summary": {
-          "en-US": "\"Un jeu pour faire rebondir les mots\" par Michel Cheenne. Implementation par ..."
+          "en-US": "Jeu de lettres : faites rebondir les mots ! Seul ou jusqu'à 4 joueurs"
         },
         "description": {
           "en-US": "Trampoline est un jeu de lettres imaginé par Michel Cheenne et réalisé\npar Maximilien Naveau : 13 mots de 9 lettres à construire sur une grille,\navec des lettres qui « rebondissent ».\n\nChaque tuile a deux faces, une jaune et une verte, avec une lettre\ndifférente de chaque côté. Posez un mot sur une ligne, touchez une lettre\npour la retourner, allongez les mots déjà posés, échangez une lettre avec\ncelles de votre main, déplacez un bloc de lettres… Le jaune rapporte, le\nvert coûte, et les dernières lettres d'un mot rapportent le plus.\n\n• Seul ou de 2 à 4 joueurs sur le même appareil\n• Jeu libre et 10 grilles de mots croisés\n• « Comment jouer » : les règles en petites animations\n• Dictionnaire français complet, sans connexion\n• Musique et bruitages originaux\n• Sans publicité, sans pistage, aucune donnée collectée\n• Logiciel libre (GPL-3.0)\n\nTrampoline is a French word game designed by Michel Cheenne and made by\nMaximilien Naveau: build 13 nine-letter words on a grid, with tiles whose\ntwo faces (yellow and green) carry different letters. Solo or 2-4 players\non one device, free play and 10 crosswords, animated rules, no ads, no\ntracking. The game is in French.\n"
@@ -51,6 +113,31 @@
         "preferredSigner": "89ce10f08ba6e5a4c51adb3e1477c530b07a733b6b68073d58c78f5ef88f3402"
       },
       "versions": {
+        "3e4ee7c26d733a4246dd15a3a8a9e5f5660fbe3b9fe8a04807dbf101fdd78274": {
+          "added": 1793962756000,
+          "file": {
+            "name": "/trampoline_v4.0.1.apk",
+            "sha256": "3e4ee7c26d733a4246dd15a3a8a9e5f5660fbe3b9fe8a04807dbf101fdd78274",
+            "size": 56153665
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a"
+            ],
+            "versionName": "4.0.1",
+            "versionCode": 4000001,
+            "usesSdk": {
+              "minSdkVersion": 24,
+              "targetSdkVersion": 36
+            },
+            "signer": {
+              "sha256": [
+                "89ce10f08ba6e5a4c51adb3e1477c530b07a733b6b68073d58c78f5ef88f3402"
+              ]
+            }
+          }
+        },
         "a87b889cf7fec501a38c9d82edc06232f6d8a87a2ca23feb48e13705455a6ca9": {
           "added": 1793898765000,
           "file": {

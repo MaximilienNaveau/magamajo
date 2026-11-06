@@ -1,0 +1,8 @@
+Trampoline 4, entièrement refait (moteur Godot) :
+• nouveau look, inspiré de la boîte d'origine
+• musique et bruitages originaux
+• jeu libre et 10 grilles de mots croisés
+• « Comment jouer » animé
+• parties sauvegardées automatiquement
+• Linux, Windows, macOS et navigateur en plus d'Android
+• logiciel libre (GPL-3.0), par Michel Cheenne et Maximilien Naveau

@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1793960446000,
+    "timestamp": 1793962767000,
     "version": 20002,
     "name": "Magamajo F-Droid Repo Demo",
     "icon": "rob_transparent.png",
@@ -18,20 +18,56 @@
         "Games",
         "Writing"
       ],
-      "suggestedVersionName": "4.0.0",
-      "suggestedVersionCode": "4000000",
+      "suggestedVersionName": "4.0.1",
+      "suggestedVersionCode": "4000001",
       "description": "Trampoline est un jeu de lettres imagin\u00e9 par Michel Cheenne et r\u00e9alis\u00e9\npar Maximilien Naveau : 13 mots de 9 lettres \u00e0 construire sur une grille,\navec des lettres qui \u00ab rebondissent \u00bb.\n\nChaque tuile a deux faces, une jaune et une verte, avec une lettre\ndiff\u00e9rente de chaque c\u00f4t\u00e9. Posez un mot sur une ligne, touchez une lettre\npour la retourner, allongez les mots d\u00e9j\u00e0 pos\u00e9s, \u00e9changez une lettre avec\ncelles de votre main, d\u00e9placez un bloc de lettres\u2026 Le jaune rapporte, le\nvert co\u00fbte, et les derni\u00e8res lettres d'un mot rapportent le plus.\n\n\u2022 Seul ou de 2 \u00e0 4 joueurs sur le m\u00eame appareil\n\u2022 Jeu libre et 10 grilles de mots crois\u00e9s\n\u2022 \u00ab Comment jouer \u00bb : les r\u00e8gles en petites animations\n\u2022 Dictionnaire fran\u00e7ais complet, sans connexion\n\u2022 Musique et bruitages originaux\n\u2022 Sans publicit\u00e9, sans pistage, aucune donn\u00e9e collect\u00e9e\n\u2022 Logiciel libre (GPL-3.0)\n\nTrampoline is a French word game designed by Michel Cheenne and made by\nMaximilien Naveau: build 13 nine-letter words on a grid, with tiles whose\ntwo faces (yellow and green) carry different letters. Solo or 2-4 players\non one device, free play and 10 crosswords, animated rules, no ads, no\ntracking. The game is in French.\n",
-      "license": "Unknown",
+      "license": "GPL-3.0",
       "name": "Trampoline",
       "sourceCode": "https://github.com/MaximilienNaveau/trampoline",
-      "summary": "\"Un jeu pour faire rebondir les mots\" par Michel Cheenne. Implementation par ...",
+      "summary": "Jeu de lettres : faites rebondir les mots ! Seul ou jusqu'\u00e0 4 joueurs",
       "added": 1748932437000,
       "packageName": "com.magamajo.trampoline",
-      "lastUpdated": 1793898765000
+      "lastUpdated": 1793962756000,
+      "localized": {
+        "en-US": {
+          "phoneScreenshots": [
+            "1.jpg",
+            "10.jpg",
+            "11.jpg",
+            "2.jpg",
+            "3.jpg",
+            "4.jpg",
+            "5.jpg",
+            "6.jpg",
+            "7.jpg",
+            "8.jpg",
+            "9.jpg"
+          ],
+          "whatsNew": "Trampoline 4, enti\u00e8rement refait (moteur Godot) :\n\u2022 nouveau look, inspir\u00e9 de la bo\u00eete d'origine\n\u2022 musique et bruitages originaux\n\u2022 jeu libre et 10 grilles de mots crois\u00e9s\n\u2022 \u00ab Comment jouer \u00bb anim\u00e9\n\u2022 parties sauvegard\u00e9es automatiquement\n\u2022 Linux, Windows, macOS et navigateur en plus d'Android\n\u2022 logiciel libre (GPL-3.0), par Michel Cheenne et Maximilien Naveau\n"
+        }
+      }
     }
   ],
   "packages": {
     "com.magamajo.trampoline": [
+      {
+        "added": 1793962756000,
+        "apkName": "trampoline_v4.0.1.apk",
+        "hash": "3e4ee7c26d733a4246dd15a3a8a9e5f5660fbe3b9fe8a04807dbf101fdd78274",
+        "hashType": "sha256",
+        "minSdkVersion": 24,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a"
+        ],
+        "packageName": "com.magamajo.trampoline",
+        "sig": "4d84e611d6da5e895b5de35695d90bd3",
+        "signer": "89ce10f08ba6e5a4c51adb3e1477c530b07a733b6b68073d58c78f5ef88f3402",
+        "size": 56153665,
+        "targetSdkVersion": 36,
+        "versionCode": 4000001,
+        "versionName": "4.0.1"
+      },
       {
         "added": 1793898765000,
         "apkName": "trampoline_v4.0.0.apk",
