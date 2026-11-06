@@ -101,4 +101,16 @@ jobs:
             exit 0
           fi
           git commit -m "Automated update"
-          git push
+          # Rejected when main moved while this ran (a push during the
+          # update): that push started its own run, which redoes the update
+          # from the newer main. Pushing this one, made from the older main,
+          # could undo that push (e.g. bring a removed APK back into the
+          # index), so leave it to that run.
+          if ! git push; then
+            git fetch origin main
+            if [ "$(git rev-parse origin/main)" != "$GITHUB_SHA" ]; then
+              echo "::notice::main moved during this update: the run of the newer push publishes instead."
+              exit 0
+            fi
+            exit 1
+          fi
