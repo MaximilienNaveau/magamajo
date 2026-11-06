@@ -242,6 +242,10 @@ pub fn find_metadata(cloned_repo_path: &Path) -> Result<RepoMetadata> {
         }
     }
 
+    // walkdir lists files in no particular order: sort by path, so the app
+    // repo sets the order with the file names (e.g. 01_start.jpg, 02_...).
+    metadata.screenshots.sort();
+
     Ok(metadata)
 }
 
