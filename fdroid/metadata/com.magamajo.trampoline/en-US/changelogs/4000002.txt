@@ -1,0 +1,5 @@
+Sur un grand écran (ordinateur, tablette à l'horizontale) :
+• la main se range sur un tapis de la taille de la grille, 9 lettres par ligne, juste à côté d'elle
+• grille et main sont centrées à l'écran
+• mots croisés : les 13 définitions tiennent à l'écran, sans défiler
+• nouvelle icône sur ordinateur : la tuile M/C, en relief
