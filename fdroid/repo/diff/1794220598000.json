@@ -1,0 +1,14 @@
+{
+  "repo": {
+    "timestamp": 1794220607000
+  },
+  "packages": {
+    "com.magamajo.trampoline": {
+      "metadata": {
+        "description": {
+          "en-US": "Trampoline est un jeu de lettres imaginé par Michel Cheenne et réalisé par Maximilien Naveau : 13 mots de 9 lettres à construire sur une grille, avec des lettres qui « rebondissent ».\n\nChaque tuile a deux faces, une jaune et une verte, avec une lettre différente de chaque côté. Posez un mot sur une ligne, touchez une lettre pour la retourner, allongez les mots déjà posés, échangez une lettre avec celles de votre main, déplacez un bloc de lettres… Le jaune rapporte, le vert coûte, et les dernières lettres d'un mot rapportent le plus.\n\n• Seul ou de 2 à 4 joueurs sur le même appareil\n• Jeu libre et 10 grilles de mots croisés\n• « Comment jouer » : les règles en petites animations\n• Dictionnaire français complet, sans connexion\n• Musique et bruitages originaux\n• Sans publicité, sans pistage, aucune donnée collectée\n• Logiciel libre (GPL-3.0)\n\nTrampoline is a French word game designed by Michel Cheenne and made by Maximilien Naveau: build 13 nine-letter words on a grid, with tiles whose two faces (yellow and green) carry different letters. Solo or 2-4 players on one device, free play and 10 crosswords, animated rules, no ads, no tracking. The game is in French.\n"
+        }
+      }
+    }
+  }
+}
