@@ -14,7 +14,7 @@
       }
     },
     "address": "https://raw.githubusercontent.com/MaximilienNaveau/magamajo/main/fdroid/repo",
-    "timestamp": 1794306752000,
+    "timestamp": 1794319348000,
     "categories": {
       "Games": {
         "name": {
@@ -36,7 +36,7 @@
           "Games",
           "Writing"
         ],
-        "lastUpdated": 1793966468000,
+        "lastUpdated": 1794319339000,
         "license": "GPL-3.0",
         "sourceCode": "https://github.com/MaximilienNaveau/trampoline",
         "screenshots": {
@@ -120,6 +120,31 @@
         "preferredSigner": "89ce10f08ba6e5a4c51adb3e1477c530b07a733b6b68073d58c78f5ef88f3402"
       },
       "versions": {
+        "b33c8692423093f013cd0bb843587c4752a8db9096dda194dc0fffbc40430980": {
+          "added": 1794319339000,
+          "file": {
+            "name": "/trampoline_v4.1.0.apk",
+            "sha256": "b33c8692423093f013cd0bb843587c4752a8db9096dda194dc0fffbc40430980",
+            "size": 80205499
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a"
+            ],
+            "versionName": "4.1.0",
+            "versionCode": 4001000,
+            "usesSdk": {
+              "minSdkVersion": 24,
+              "targetSdkVersion": 36
+            },
+            "signer": {
+              "sha256": [
+                "89ce10f08ba6e5a4c51adb3e1477c530b07a733b6b68073d58c78f5ef88f3402"
+              ]
+            }
+          }
+        },
         "58d68d60b463cc2c2df019400286e3a2b77fcebe3e52cad7f70d9dfe60994ca6": {
           "added": 1793966468000,
           "file": {
