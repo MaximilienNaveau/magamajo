@@ -1,0 +1,1 @@
+Aucun changement dans le jeu : cette version prépare l'arrivée de Trampoline sur le dépôt officiel F-Droid, qui pourra reconstruire l'application à l'identique depuis les sources.
