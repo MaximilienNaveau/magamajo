@@ -1,15 +1,15 @@
-WebSite: ''
+CurrentVersion: 4.1.1
+Summary: 'Jeu de lettres : faites rebondir les mots ! Seul ou jusqu''à 4 joueurs'
+CurrentVersionCode: 4001001
+IssueTracker: ''
+License: GPL-3.0
 Categories:
 - Games
 - Writing
-CurrentVersionCode: 4001001
-License: GPL-3.0
-AuthorName: MaximilienNaveau
-CurrentVersion: 4.1.1
+WebSite: ''
 Name: Trampoline
+AuthorName: MaximilienNaveau
 SourceCode: https://github.com/MaximilienNaveau/trampoline
-IssueTracker: ''
-Summary: 'Jeu de lettres : faites rebondir les mots ! Seul ou jusqu''à 4 joueurs'
 Description: |
   Trampoline est un jeu de lettres imaginé par Michel Cheenne et réalisé par Maximilien Naveau : 13 mots de 9 lettres à construire sur une grille, avec des lettres qui « rebondissent ».
 
